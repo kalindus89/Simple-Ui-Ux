@@ -12,6 +12,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login 1"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="45dp" />
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Login 2"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Login 3"/>
 </LinearLayout>

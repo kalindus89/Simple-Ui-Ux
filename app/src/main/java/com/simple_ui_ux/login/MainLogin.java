@@ -26,5 +26,19 @@ public class MainLogin extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainLogin.this, Login_TwoActivity.class);
+                startActivity(intent);
+            }
+        });
+        findViewById(R.id.button3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainLogin.this, Login_ThreeActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
