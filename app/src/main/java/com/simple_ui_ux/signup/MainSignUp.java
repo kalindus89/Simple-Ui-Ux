@@ -1,4 +1,4 @@
-package com.simple_ui_ux;
+package com.simple_ui_ux.signup;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,29 +7,23 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
 
+import com.simple_ui_ux.R;
+import com.simple_ui_ux.login.Login_OneActivity;
 import com.simple_ui_ux.login.MainLogin;
-import com.simple_ui_ux.signup.MainSignUp;
 
-public class MainActivity extends AppCompatActivity {
+public class MainSignUp extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_sign_up);
 
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         findViewById(R.id.button1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainLogin.class);
-                startActivity(intent);
-            }
-        });
-        findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainSignUp.class);
+                Intent intent = new Intent(MainSignUp.this, SignUp_OneActivity.class);
                 startActivity(intent);
             }
         });
