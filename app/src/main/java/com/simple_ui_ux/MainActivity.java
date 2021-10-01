@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.WindowManager;
 
 import com.simple_ui_ux.login.MainLogin;
+import com.simple_ui_ux.menus.MainMenuActivity;
 import com.simple_ui_ux.signup.MainSignUp;
 
 public class MainActivity extends AppCompatActivity {
@@ -30,6 +31,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, MainSignUp.class);
+                startActivity(intent);
+            }
+        });
+        findViewById(R.id.button3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, MainMenuActivity.class);
                 startActivity(intent);
             }
         });

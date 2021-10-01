@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SimpleUiUx">
         <activity
+            android:name=".menus.MainMenuActivity"
+            android:exported="true" />
+        <activity
+            android:name=".menus.Menu_oneActivity"
+            android:exported="true" />
+        <activity
             android:name=".signup.SignUp_ThreeActivity"
             android:exported="true" />
         <activity
