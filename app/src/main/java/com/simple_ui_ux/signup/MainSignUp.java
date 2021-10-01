@@ -20,21 +20,21 @@ public class MainSignUp extends AppCompatActivity {
 
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        findViewById(R.id.button1).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.menu1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainSignUp.this, SignUp_OneActivity.class);
                 startActivity(intent);
             }
         });
-        findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.menu2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainSignUp.this, SignUp_twoActivity.class);
                 startActivity(intent);
             }
         });
-        findViewById(R.id.button3).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.menu3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainSignUp.this, SignUp_ThreeActivity.class);

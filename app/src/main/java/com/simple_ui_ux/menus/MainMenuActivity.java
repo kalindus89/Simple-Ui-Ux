@@ -30,5 +30,12 @@ public class MainMenuActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        findViewById(R.id.menu2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainMenuActivity.this, Menu_TwoActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

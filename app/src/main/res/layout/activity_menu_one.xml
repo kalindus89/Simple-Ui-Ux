@@ -73,7 +73,8 @@
                         android:layout_height="wrap_content"
                         android:text="Sandwich"
                         android:textColor="#000000"
-                        android:textSize="18sp"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -110,7 +111,8 @@
                         android:layout_height="wrap_content"
                         android:text="Pizza"
                         android:textColor="#000000"
-                        android:textSize="18sp"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
@@ -154,7 +156,8 @@
                         android:layout_height="wrap_content"
                         android:text="Hotdog"
                         android:textColor="#000000"
-                        android:textSize="18sp"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
@@ -191,7 +194,8 @@
                         android:layout_height="wrap_content"
                         android:text="Donat"
                         android:textColor="#000000"
-                        android:textSize="18sp"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
@@ -235,7 +239,8 @@
                         android:layout_height="wrap_content"
                         android:text="Pie"
                         android:textColor="#000000"
-                        android:textSize="18sp"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
@@ -272,7 +277,8 @@
                         android:layout_height="wrap_content"
                         android:text="IceCream"
                         android:textColor="#000000"
-                        android:textSize="18sp"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/imageView6" />
@@ -316,7 +322,8 @@
                         android:layout_height="wrap_content"
                         android:text="PopCorn"
                         android:textColor="#000000"
-                        android:textSize="18sp"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/imageView7" />
@@ -353,7 +360,8 @@
                         android:layout_height="wrap_content"
                         android:text="Fruit"
                         android:textColor="#000000"
-                        android:textSize="18sp"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/imageView8" />

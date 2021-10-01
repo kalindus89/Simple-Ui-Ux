@@ -19,28 +19,28 @@ public class MainLogin extends AppCompatActivity {
 
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        findViewById(R.id.button1).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.menu1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainLogin.this, Login_OneActivity.class);
                 startActivity(intent);
             }
         });
-        findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.menu2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainLogin.this, Login_ThreeActivity.class);
                 startActivity(intent);
             }
         });
-        findViewById(R.id.button3).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.menu3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainLogin.this, Login_TwoActivity.class);
                 startActivity(intent);
             }
         });
-        findViewById(R.id.button4).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.menu4).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainLogin.this, Login_FourActivity.class);
