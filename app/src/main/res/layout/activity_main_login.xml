@@ -11,20 +11,31 @@
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login 1"
-        android:layout_margin="10dp"/>
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Login 1" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="Login 2"/>
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Login 2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Login 3" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="Login 3"/>
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Login 4" />
 </LinearLayout>

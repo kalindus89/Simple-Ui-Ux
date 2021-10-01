@@ -34,5 +34,12 @@ public class MainSignUp extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        findViewById(R.id.button3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainSignUp.this, SignUp_ThreeActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
