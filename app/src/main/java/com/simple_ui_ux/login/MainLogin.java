@@ -33,14 +33,14 @@ public class MainLogin extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        findViewById(R.id.menu3).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.menuLast).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainLogin.this, Login_TwoActivity.class);
                 startActivity(intent);
             }
         });
-        findViewById(R.id.menu4).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.menu3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainLogin.this, Login_FourActivity.class);

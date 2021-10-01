@@ -18,10 +18,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:fontFamily="sans-serif-condensed-medium"
             android:text="Login Menu"
+            android:textStyle="bold"
             android:textColor="#ffffff"
-            android:textSize="36sp"
+            android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -59,14 +59,14 @@
 
                     <ImageView
                         android:id="@+id/imageView"
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_marginBottom="8dp"
                         app:layout_constraintBottom_toTopOf="@+id/textView"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/login_icon"
+                        app:srcCompat="@drawable/login_icon_2"
                         app:tint="#ED451B"/>
 
                     <TextView
@@ -99,14 +99,14 @@
 
                     <ImageView
                         android:id="@+id/imageView2"
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_marginBottom="8dp"
                         app:layout_constraintBottom_toTopOf="@+id/textView2"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/login_icon"
+                        app:srcCompat="@drawable/login_icon_2"
                         app:tint="#2A7006" />
 
                     <TextView
@@ -146,14 +146,14 @@
 
                     <ImageView
                         android:id="@+id/imageView3"
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_marginBottom="8dp"
                         app:layout_constraintBottom_toTopOf="@+id/textView3"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/login_icon"
+                        app:srcCompat="@drawable/login_icon_2"
                         app:tint="#0896AF"/>
 
                     <TextView
@@ -186,14 +186,14 @@
 
                     <ImageView
                         android:id="@+id/imageView4"
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_marginBottom="8dp"
                         app:layout_constraintBottom_toTopOf="@+id/textView4"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/login_icon"
+                        app:srcCompat="@drawable/login_icon_2"
                         app:tint="#D39804" />
 
                     <TextView
@@ -232,14 +232,14 @@
 
                     <ImageView
                         android:id="@+id/imageView5"
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_marginBottom="8dp"
                         app:layout_constraintBottom_toTopOf="@+id/textView5"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/login_icon"
+                        app:srcCompat="@drawable/login_icon_2"
                         app:tint="#A408AF" />
 
                     <TextView
@@ -271,14 +271,14 @@
 
                     <ImageView
                         android:id="@+id/imageView6"
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_marginBottom="8dp"
                         app:layout_constraintBottom_toTopOf="@+id/textView6"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/login_icon"
+                        app:srcCompat="@drawable/login_icon_2"
                         app:tint="#5CAF08"/>
 
                     <TextView
@@ -317,14 +317,14 @@
 
                     <ImageView
                         android:id="@+id/imageView7"
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_marginBottom="8dp"
                         app:layout_constraintBottom_toTopOf="@+id/textView7"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/login_icon"
+                        app:srcCompat="@drawable/login_icon_2"
                         app:tint="#FFC107"/>
 
                     <TextView
@@ -342,6 +342,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/menuLast"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -356,14 +357,14 @@
 
                     <ImageView
                         android:id="@+id/imageView8"
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_marginBottom="8dp"
                         app:layout_constraintBottom_toTopOf="@+id/textView8"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/login_icon"
+                        app:srcCompat="@drawable/login_icon_2"
                         app:tint="#084BAF" />
 
                     <TextView

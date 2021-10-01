@@ -20,8 +20,9 @@
             android:layout_marginTop="32dp"
             android:fontFamily="sans-serif-condensed-medium"
             android:text="Signup Menu"
+            android:textStyle="bold"
             android:textColor="#ffffff"
-            android:textSize="36sp"
+            android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
