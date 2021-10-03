@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".login.Login_FourActivity" >
+    tools:context=".login.Login_Activity_4" >
 
     <LinearLayout
         android:layout_width="match_parent"

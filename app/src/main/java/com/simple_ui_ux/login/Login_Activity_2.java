@@ -7,7 +7,7 @@ import android.view.WindowManager;
 
 import com.simple_ui_ux.R;
 
-public class Login_TwoActivity extends AppCompatActivity {
+public class Login_Activity_2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

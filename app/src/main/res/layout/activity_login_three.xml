@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background3"
-    tools:context=".login.Login_ThreeActivity">
+    tools:context=".login.Login_Activity_3">
 
     <LinearLayout
         android:id="@+id/linearLayout"

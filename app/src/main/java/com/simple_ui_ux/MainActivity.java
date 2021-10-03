@@ -7,9 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
 
-import com.simple_ui_ux.login.MainLogin;
+import com.simple_ui_ux.login.MainLoginActivity;
 import com.simple_ui_ux.menus.MainMenuActivity;
-import com.simple_ui_ux.signup.MainSignUp;
+import com.simple_ui_ux.signup.MainSignUpActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,14 +23,14 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainLogin.class);
+                Intent intent = new Intent(MainActivity.this, MainLoginActivity.class);
                 startActivity(intent);
             }
         });
         findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainSignUp.class);
+                Intent intent = new Intent(MainActivity.this, MainSignUpActivity.class);
                 startActivity(intent);
             }
         });

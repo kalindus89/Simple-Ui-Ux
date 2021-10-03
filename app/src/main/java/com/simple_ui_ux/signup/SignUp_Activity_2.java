@@ -1,4 +1,4 @@
-package com.simple_ui_ux.menus;
+package com.simple_ui_ux.signup;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,12 +7,12 @@ import android.view.WindowManager;
 
 import com.simple_ui_ux.R;
 
-public class Menu_TwoActivity extends AppCompatActivity {
+public class SignUp_Activity_2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu_two);
+        setContentView(R.layout.activity_sign_up_two);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
     }
 }

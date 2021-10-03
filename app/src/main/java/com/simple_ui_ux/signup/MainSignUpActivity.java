@@ -9,7 +9,7 @@ import android.view.WindowManager;
 
 import com.simple_ui_ux.R;
 
-public class MainSignUp extends AppCompatActivity {
+public class MainSignUpActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,35 +21,35 @@ public class MainSignUp extends AppCompatActivity {
         findViewById(R.id.menu1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainSignUp.this, SignUp_OneActivity.class);
+                Intent intent = new Intent(MainSignUpActivity.this, SignUp_Activity_1.class);
                 startActivity(intent);
             }
         });
         findViewById(R.id.menu2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainSignUp.this, SignUp_twoActivity.class);
+                Intent intent = new Intent(MainSignUpActivity.this, SignUp_Activity_2.class);
                 startActivity(intent);
             }
         });
         findViewById(R.id.menu3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainSignUp.this, SignUp_ThreeActivity.class);
+                Intent intent = new Intent(MainSignUpActivity.this, SignUp_Activity_3.class);
                 startActivity(intent);
             }
         });
         findViewById(R.id.menu4).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainSignUp.this, SignUp_FourActivity.class);
+                Intent intent = new Intent(MainSignUpActivity.this, SignUp_Activity_4.class);
                 startActivity(intent);
             }
         });
         findViewById(R.id.menu5).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainSignUp.this, SignUp_FiveActivity.class);
+                Intent intent = new Intent(MainSignUpActivity.this, SignUp_Activity_5.class);
                 startActivity(intent);
             }
         });

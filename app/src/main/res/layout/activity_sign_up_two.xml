@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background2"
-    tools:context=".signup.SignUp_twoActivity">
+    tools:context=".signup.SignUp_Activity_2">
 
     <LinearLayout
         android:id="@+id/linearLayout"

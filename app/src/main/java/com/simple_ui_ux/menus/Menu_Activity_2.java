@@ -1,4 +1,4 @@
-package com.simple_ui_ux.login;
+package com.simple_ui_ux.menus;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,12 +7,12 @@ import android.view.WindowManager;
 
 import com.simple_ui_ux.R;
 
-public class Login_SixActivity extends AppCompatActivity {
+public class Menu_Activity_2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_six);
+        setContentView(R.layout.activity_menu_two);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
     }
 }

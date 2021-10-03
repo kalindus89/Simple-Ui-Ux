@@ -7,10 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
 
-import com.simple_ui_ux.MainActivity;
 import com.simple_ui_ux.R;
 
-public class MainLogin extends AppCompatActivity {
+public class MainLoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,42 +21,42 @@ public class MainLogin extends AppCompatActivity {
         findViewById(R.id.menu1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainLogin.this, Login_OneActivity.class);
+                Intent intent = new Intent(MainLoginActivity.this, Login_Activity_1.class);
                 startActivity(intent);
             }
         });
         findViewById(R.id.menu2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainLogin.this, Login_ThreeActivity.class);
+                Intent intent = new Intent(MainLoginActivity.this, Login_Activity_3.class);
                 startActivity(intent);
             }
         });
         findViewById(R.id.menuLast).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainLogin.this, Login_TwoActivity.class);
+                Intent intent = new Intent(MainLoginActivity.this, Login_Activity_2.class);
                 startActivity(intent);
             }
         });
         findViewById(R.id.menu3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainLogin.this, Login_FourActivity.class);
+                Intent intent = new Intent(MainLoginActivity.this, Login_Activity_4.class);
                 startActivity(intent);
             }
         });
         findViewById(R.id.menu4).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainLogin.this, Login_FiveActivity.class);
+                Intent intent = new Intent(MainLoginActivity.this, Login_Activity_5.class);
                 startActivity(intent);
             }
         });
         findViewById(R.id.menu5).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainLogin.this, Login_SixActivity.class);
+                Intent intent = new Intent(MainLoginActivity.this, Login_Activity_6.class);
                 startActivity(intent);
             }
         });

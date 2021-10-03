@@ -1,17 +1,13 @@
 package com.simple_ui_ux.menus;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
 
 import com.simple_ui_ux.R;
-import com.simple_ui_ux.signup.MainSignUp;
-import com.simple_ui_ux.signup.SignUp_OneActivity;
 
 public class MainMenuActivity extends AppCompatActivity {
 
@@ -26,14 +22,14 @@ public class MainMenuActivity extends AppCompatActivity {
         findViewById(R.id.menu1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainMenuActivity.this, Menu_oneActivity.class);
+                Intent intent = new Intent(MainMenuActivity.this, Menu_Activity_1.class);
                 startActivity(intent);
             }
         });
         findViewById(R.id.menu2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainMenuActivity.this, Menu_TwoActivity.class);
+                Intent intent = new Intent(MainMenuActivity.this, Menu_Activity_2.class);
                 startActivity(intent);
             }
         });
