@@ -371,7 +371,7 @@
                         android:id="@+id/textView8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Fruit"
+                        android:text="Login Last"
                         android:textColor="#000000"
                         android:textSize="15sp"
                         android:textStyle="bold"

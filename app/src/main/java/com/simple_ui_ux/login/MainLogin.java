@@ -47,5 +47,12 @@ public class MainLogin extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        findViewById(R.id.menu4).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainLogin.this, Login_FiveActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
