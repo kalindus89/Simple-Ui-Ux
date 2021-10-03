@@ -53,5 +53,12 @@ public class MainSignUpActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        findViewById(R.id.menu6).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainSignUpActivity.this, SignUp_Activity_6.class);
+                startActivity(intent);
+            }
+        });
     }
 }
