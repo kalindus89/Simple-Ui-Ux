@@ -10,8 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SimpleUiUx">
         <activity
+            android:name=".signup.SignUp_Activity_8"
+            android:exported="true" />
+        <activity
+            android:name=".login.Login_Activity_10"
+            android:exported="true" />
+        <activity
             android:name=".login.Login_Activity_9"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".signup.SignUp_Activity_7"
             android:exported="true" />
