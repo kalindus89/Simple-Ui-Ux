@@ -28,5 +28,14 @@ public class Profile_MainActivity extends AppCompatActivity {
             }
         });
 
+
+        findViewById(R.id.menu2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Profile_MainActivity.this, Profile_Activity_2.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
