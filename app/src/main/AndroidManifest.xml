@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SimpleUiUx">
         <activity
+            android:name=".menus.Menu_Activity_10"
+            android:exported="true" />
+        <activity
             android:name=".menus.Menu_Activity_9"
             android:exported="true" />
         <activity

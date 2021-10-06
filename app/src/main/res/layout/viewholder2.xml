@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="120dp"
+    android:layout_height="160dp"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="20dp">
+
+    <ImageView
+        android:id="@+id/removeFeeder"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/feederName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:background="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:lines="2"
+        android:gravity="center"
+        android:layout_gravity="bottom" />
+</androidx.cardview.widget.CardView>
