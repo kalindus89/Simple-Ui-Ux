@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SimpleUiUx">
         <activity
+            android:name=".menus.Menu_Activity_13"
+            android:exported="true" />
+        <activity
             android:name=".menus.Menu_Activity_12"
             android:exported="true" />
         <activity
@@ -118,7 +121,7 @@
             android:name=".signup.SignUp_Activity_1"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".MainActivityUi"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
