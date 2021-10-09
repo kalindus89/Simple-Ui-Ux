@@ -96,5 +96,26 @@ public class MainMenuActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        findViewById(R.id.menu12).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainMenuActivity.this, Menu_Activity_12.class);
+                startActivity(intent);
+            }
+        });
+        findViewById(R.id.menu13).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainMenuActivity.this, Menu_Activity_12.class);
+                startActivity(intent);
+            }
+        });
+        findViewById(R.id.menu14).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainMenuActivity.this, Menu_Activity_12.class);
+                startActivity(intent);
+            }
+        });
     }
 }
