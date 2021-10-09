@@ -27,7 +27,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@mipmap/top_background3" />
+                    app:srcCompat="@mipmap/top_background5" />
 
                 <ImageView
                     android:id="@+id/imageView10"
