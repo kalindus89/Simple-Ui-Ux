@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/uiIntro"
+        layout="@layout/activity_full_ui6_intro"
+        android:visibility="visible" />
+
+    <include
+        android:id="@+id/uiSignIn"
+        layout="@layout/activity_full_ui6_login"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/uiSignup"
+        layout="@layout/activity_full_ui6_signup"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/uiMenu"
+        layout="@layout/activity_full_ui6_menu"
+        android:visibility="gone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
