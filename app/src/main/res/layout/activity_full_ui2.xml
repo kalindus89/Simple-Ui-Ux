@@ -7,22 +7,22 @@
 
     <include
         android:id="@+id/uiIntro"
-        layout="@layout/activity_full_ui1_intro"
+        layout="@layout/activity_full_ui2_intro"
         android:visibility="visible" />
 
     <include
         android:id="@+id/uiSignIn"
-        layout="@layout/activity_full_ui1_login"
+        layout="@layout/activity_full_ui2_login"
         android:visibility="gone" />
 
     <include
         android:id="@+id/uiSignup"
-        layout="@layout/activity_full_ui1_signup"
+        layout="@layout/activity_full_ui2_signup"
         android:visibility="gone" />
 
     <include
         android:id="@+id/uiMenu"
-        layout="@layout/activity_full_ui1_menu"
+        layout="@layout/activity_full_ui2_menu"
         android:visibility="gone" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
