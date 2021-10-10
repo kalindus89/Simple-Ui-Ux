@@ -3,7 +3,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".full_ui.FullUi_Activity_3">
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/uiIntro"
+        layout="@layout/activity_full_ui3_intro"
+        android:visibility="visible" />
+
+    <include
+        android:id="@+id/uiSignIn"
+        layout="@layout/activity_full_ui3_login"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/uiSignup"
+        layout="@layout/activity_full_ui3_signup"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/uiMenu"
+        layout="@layout/activity_full_ui3_menu"
+        android:visibility="gone" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

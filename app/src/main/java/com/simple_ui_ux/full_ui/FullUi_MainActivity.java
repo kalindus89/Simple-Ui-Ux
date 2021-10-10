@@ -35,5 +35,13 @@ public class FullUi_MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        findViewById(R.id.menu3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(FullUi_MainActivity.this, FullUi_Activity_3.class);
+                startActivity(intent);
+            }
+        });
     }
 }
