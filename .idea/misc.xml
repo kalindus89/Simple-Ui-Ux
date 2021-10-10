@@ -24,12 +24,14 @@
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/background_btn.xml" value="0.3828125" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/background_btn1.xml" value="0.3828125" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/background_btn2.xml" value="0.3769230769230769" />
+        <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/background_btn3.xml" value="0.25257731958762886" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/background_btn_intro.xml" value="0.3769230769230769" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/background_button.xml" value="0.3356164383561644" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/background_button2.xml" value="0.3356164383561644" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/background_edittext.xml" value="0.3356164383561644" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/background_edittext2.xml" value="0.3356164383561644" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/background_edt.xml" value="0.3828125" />
+        <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/background_edt1.xml" value="0.28378378378378377" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/background_edt_search.xml" value="0.3769230769230769" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/background_forget_password.xml" value="0.3356164383561644" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/background_login_btn.xml" value="0.3356164383561644" />
@@ -41,6 +43,7 @@
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/background_top.xml" value="0.3356164383561644" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/background_top_2.xml" value="0.3356164383561644" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/background_top_3.xml" value="0.3828125" />
+        <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/bakcground_btn_grey.xml" value="0.25257731958762886" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/banner_background.xml" value="0.3769230769230769" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/banner_background2.xml" value="0.3769230769230769" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/bcakground1.xml" value="0.3356164383561644" />
@@ -54,6 +57,7 @@
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/blue_gradient_background.xml" value="0.3769230769230769" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/blue_light_background.xml" value="0.28378378378378377" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/bottom_background_light_green.xml" value="0.3769230769230769" />
+        <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/bottom_btn_grey.xml" value="0.25257731958762886" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/btn_background.xml" value="0.3828125" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/btn_background1.xml" value="0.3769230769230769" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/btn_background2.xml" value="0.3828125" />
@@ -91,6 +95,7 @@
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/login_btn_background4.xml" value="0.3356164383561644" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/no_background_btn.xml" value="0.25257731958762886" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/orange_background.xml" value="0.3769230769230769" />
+        <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/orange_btn.xml" value="0.28378378378378377" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/search_edt.xml" value="0.3769230769230769" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/top_background.xml" value="0.2703125" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/drawable/top_background_blue.xml" value="0.28378378378378377" />
@@ -130,6 +135,11 @@
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/layout/activity_full_ui6_login.xml" value="0.275" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/layout/activity_full_ui6_menu.xml" value="0.275" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/layout/activity_full_ui6_signup.xml" value="0.275" />
+        <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/layout/activity_full_ui7.xml" value="0.275" />
+        <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/layout/activity_full_ui7_intro.xml" value="0.275" />
+        <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/layout/activity_full_ui7_login.xml" value="0.275" />
+        <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/layout/activity_full_ui7_menu.xml" value="0.24444444444444444" />
+        <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/layout/activity_full_ui7_signup.xml" value="0.25243055555555555" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/layout/activity_full_ui_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/layout/activity_login10.xml" value="0.2" />
         <entry key="..\:/Work/Android/AndroidStudioProjects/AndroidStudioProjectsAll/Ui-Ux-Designing/Simple-Ui-Ux/app/src/main/res/layout/activity_login7.xml" value="0.296195652173913" />
