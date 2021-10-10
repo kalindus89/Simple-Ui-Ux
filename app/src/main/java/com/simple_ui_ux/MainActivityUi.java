@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
 
+import com.simple_ui_ux.full_ui.FullUi_MainActivity;
 import com.simple_ui_ux.login.MainLoginActivity;
 import com.simple_ui_ux.menus.MainMenuActivity;
 import com.simple_ui_ux.profile.Profile_MainActivity;
@@ -46,6 +47,13 @@ public class MainActivityUi extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivityUi.this, Profile_MainActivity.class);
+                startActivity(intent);
+            }
+        });
+        findViewById(R.id.button5).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivityUi.this, FullUi_MainActivity.class);
                 startActivity(intent);
             }
         });
