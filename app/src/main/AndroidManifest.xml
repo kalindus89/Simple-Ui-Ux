@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SimpleUiUx">
         <activity
+            android:name=".login.Login_Activity_11"
+            android:exported="true" />
+        <activity
             android:name=".full_ui.FullUi_Activity_8"
             android:exported="true" />
         <activity
@@ -162,6 +165,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
