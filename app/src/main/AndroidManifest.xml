@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SimpleUiUx">
         <activity
+            android:name=".MainActivityUi"
+            android:exported="true" />
+        <activity
             android:name=".full_ui.FullUi_Activity_10"
             android:exported="true" />
         <activity
@@ -163,7 +166,7 @@
             android:name=".signup.SignUp_Activity_1"
             android:exported="true" />
         <activity
-            android:name=".MainActivityUi"
+            android:name=".splash.Splash_Activity_1"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
