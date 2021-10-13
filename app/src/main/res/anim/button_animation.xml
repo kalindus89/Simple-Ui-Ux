@@ -5,13 +5,13 @@
     <alpha
             android:fromAlpha="0.0"
             android:toAlpha="1.0"
-            android:duration="500" />
+            android:duration="1000" />
 
     <!--time to button appear from Top to bottom or Bottom to top-->
     <translate
                 android:fromYDelta="-100%"
                 android:toYDelta="0%"
-                android:duration="700" />
+                android:duration="1000" />
 
 
 

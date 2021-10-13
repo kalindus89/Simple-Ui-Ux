@@ -29,8 +29,8 @@ public class Animation_Activity_7 extends AppCompatActivity {
         btn=findViewById(R.id.btn);
         lottieAnim=findViewById(R.id.lottieAnim);
 
-        header.setAnimation(AnimationUtils.loadAnimation(this,R.anim.animation2));
-        btn.setAnimation(AnimationUtils.loadAnimation(this,R.anim.animation1));
+        header.setAnimation(AnimationUtils.loadAnimation(getApplicationContext(),R.anim.button_animation));
+        btn.setAnimation(AnimationUtils.loadAnimation(getApplicationContext(),R.anim.button_animation));
 
         lottieAnim.animate().translationX(2000).setDuration(2000).setStartDelay(3000);
         header.animate().translationY(-1400).setDuration(2700).setStartDelay(3000);
