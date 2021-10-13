@@ -16,4 +16,5 @@
     <color name="pink">#f469a9</color>
     <color name="purple">#ba53de</color>
     <color name="blue">#88bef5</color>
+    <color name="colorTransparentWhite">#cccccc</color>
 </resources>

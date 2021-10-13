@@ -1,4 +1,4 @@
-package com.simple_ui_ux.splash;
+package com.simple_ui_ux.animations;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import com.airbnb.lottie.LottieAnimationView;
 import com.simple_ui_ux.R;
 
-public class Splash_Activity_1 extends AppCompatActivity {
+public class Animation_Activity_1 extends AppCompatActivity {
 
     ImageView logo,app_name,splashImg;
     LottieAnimationView lottieAnim;

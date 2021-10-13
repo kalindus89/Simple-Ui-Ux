@@ -9,8 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SimpleUiUx">
+
         <activity
             android:name=".MainActivityUi"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".animations.Animation_MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".animations.Animation_Activity_2"
+            android:exported="true" />
+        <activity
+            android:name=".animations.Animation_Activity_1"
             android:exported="true" />
         <activity
             android:name=".full_ui.FullUi_Activity_10"
@@ -165,15 +182,7 @@
         <activity
             android:name=".signup.SignUp_Activity_1"
             android:exported="true" />
-        <activity
-            android:name=".splash.Splash_Activity_1"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
 
         <meta-data
             android:name="preloaded_fonts"
