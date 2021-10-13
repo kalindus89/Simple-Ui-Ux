@@ -32,12 +32,14 @@ public class Animation_Activity_3 extends AppCompatActivity {
     Animation btnAnim ;
     TextView tvSkip;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_animation3);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
 
         // ini views
         btnNext = findViewById(R.id.btn_next);
@@ -118,6 +120,7 @@ public class Animation_Activity_3 extends AppCompatActivity {
             public void onClick(View v) {
 
                 //open main activity
+
                 Intent mainActivity = new Intent(getApplicationContext(), MainActivityUi.class);
                 startActivity(mainActivity);
                 finish();
@@ -132,6 +135,7 @@ public class Animation_Activity_3 extends AppCompatActivity {
                 screenPager.setCurrentItem(mList.size());
             }
         });
+
     }
 
     // show the GETSTARTED Button and hide the indicator and the next button
