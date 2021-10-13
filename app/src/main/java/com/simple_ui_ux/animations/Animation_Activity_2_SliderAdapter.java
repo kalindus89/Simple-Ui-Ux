@@ -53,7 +53,7 @@ public class Animation_Activity_2_SliderAdapter extends PagerAdapter {
     public Object instantiateItem(@NonNull ViewGroup container, int position) {
 
         layoutInflater =(LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
-        View view = layoutInflater.inflate(R.layout.activity_splash2_slider,container,false);
+        View view = layoutInflater.inflate(R.layout.activity_animation2_slider,container,false);
 
         ImageView slider_icon =view.findViewById(R.id.slider_icon);
         TextView slider_heading =view.findViewById(R.id.slider_heading);
