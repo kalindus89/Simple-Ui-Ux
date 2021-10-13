@@ -12,6 +12,9 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <!-- Help to opening new activities for some animations -->
+        <item name="android:windowActivityTransitions">true</item>
+
     </style>
 
 </resources>
