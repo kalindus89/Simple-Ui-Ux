@@ -77,5 +77,12 @@ public class Animation_MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        findViewById(R.id.menu9).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Animation_MainActivity.this, Animation_Activity_9.class);
+                startActivity(intent);
+            }
+        });
     }
 }
