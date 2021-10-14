@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SimpleUiUx">
         <activity
+            android:name=".animations.Animation_Activity_8_2"
+            android:exported="false" />
+        <activity
+            android:name=".animations.Animation_Activity_8"
+            android:exported="false" />
+        <activity
             android:name=".animations.Animation_Activity_7"
             android:exported="true" />
         <activity
