@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ivSplash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone"
+    tools:context=".animations.Animation_Activity_8">
+
+    <!--<ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
+
+    <TextView
+        android:id="@+id/ivLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Food"
+        android:visibility="gone"
+        android:textColor="@color/pink"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/ivSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="85dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:text="Delivery"
+        android:visibility="gone"
+        android:textColor="@color/pink"
+        android:textSize="25sp" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        app:lottie_autoPlay="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:lottie_rawRes="@raw/food_delivery_services" />
+
+    <TextView
+        android:id="@+id/ivBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="From creamy curries to spicy rotties and the traditional string hoppers, we have eaten our way through Colombo's best restaurants and put together this list."
+        android:textColor="@color/pink"
+        android:textSize="16sp" />
+
+</RelativeLayout>

@@ -84,5 +84,26 @@ public class Animation_MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        findViewById(R.id.menu10).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Animation_MainActivity.this, Animation_Activity_10.class);
+                startActivity(intent);
+            }
+        });
+        findViewById(R.id.menu11).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Animation_MainActivity.this, Animation_Activity_11.class);
+                startActivity(intent);
+            }
+        });
+        findViewById(R.id.menu12).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Animation_MainActivity.this, Animation_Activity_12.class);
+                startActivity(intent);
+            }
+        });
     }
 }
